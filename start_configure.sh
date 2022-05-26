@@ -9,3 +9,4 @@ fi
 chmod +x do_configure.sh
 chmod +x add_dovecot_user.sh
 bash do_configure.sh
+cd config
