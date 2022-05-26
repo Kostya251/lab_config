@@ -8,4 +8,4 @@ echo "archive does not exist"
 fi
 chmod +x "$path/do_configure.sh"
 chmod +x "$path/add_dovecot_user.sh"
-bash ./do_configure.sh
+bash "$path/do_configure.sh"
